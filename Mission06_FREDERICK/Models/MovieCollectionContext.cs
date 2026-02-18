@@ -9,5 +9,6 @@ namespace Mission06_FREDERICK.Models
         }
 
         public DbSet<Movie> Movies { get; set; }
+        public DbSet<Category> Categories { get; set; }
     }
 }
